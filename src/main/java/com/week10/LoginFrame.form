@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.week10.LoginFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="749" height="476"/>
+    </constraints>
+    <properties>
+      <background color="-721409"/>
+      <preferredSize width="150" height="150"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="5aaaf" binding="TopPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1"/>
+          <preferredSize width="10" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="d8ce8" binding="LeftPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-1"/>
+          <preferredSize width="150" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="49660" binding="RightPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-1"/>
+          <preferredSize width="150" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="f3c50" binding="ButtonPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1"/>
+          <preferredSize width="150" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="2db7b" binding="CenterPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="db862" binding="logopanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8220450"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e3ec6" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <font size="36"/>
+                  <foreground color="-393229"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="Live-show"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="277c9" binding="loginpanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-393229"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="804b5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="24"/>
+                  <foreground color="-6789465"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="登录"/>
+                </properties>
+              </component>
+              <component id="5777a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Access to our dashbord"/>
+                </properties>
+              </component>
+              <component id="7e498" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="d29e5" class="javax.swing.JButton" binding="LoginButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <borderPainted value="false"/>
+                  <label value="登录"/>
+                  <text value="登录"/>
+                </properties>
+              </component>
+              <component id="970c6" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
